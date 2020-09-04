@@ -1,5 +1,4 @@
 ds <- read.csv(file.choose(),header = T)
-View(ds)
 
 dss<-ds[(ds$PLAYERS_COUNT> 50),]
 
